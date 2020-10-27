@@ -1,0 +1,22 @@
+{
+  "name": "team6_dixit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dixit-Team6/Team6_Dixit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dixit-Team6/Team6_Dixit/issues"
+  },
+  "homepage": "https://github.com/Dixit-Team6/Team6_Dixit#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
