@@ -2,11 +2,15 @@
   "name": "team6_dixit",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "javascript.js",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {},
+=======
+  "main": "index.js",
+>>>>>>> 9fc8db0e97ddc061896d37225573fff32983570d
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/Dixit-Team6/Team6_Dixit/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/Dixit-Team6/Team6_Dixit#readme"
+=======
+  "homepage": "https://github.com/Dixit-Team6/Team6_Dixit#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+>>>>>>> 9fc8db0e97ddc061896d37225573fff32983570d
 }
