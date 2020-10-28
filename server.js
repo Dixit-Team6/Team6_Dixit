@@ -1,12 +1,48 @@
+let express = require("express");
+let app = express();
 
-const express=require('express')
-let app=express()
- 
-app.use(express.static(__dirname+ '/public'));
+//var app = require('express')();
+let http = require('http').createServer(app);
+let io = require('socket.io')(http);
 
- 
-// Start the server on port 8000
 
-app.listen(3000, () => {
-  console.log('Server started on port 3000')
-})
+
+
+
+var port = process.env.PORT || 3030;
+
+app.use(express.static(__dirname + '/frontend'));
+
+app.get("/", function (req, res) {​​
+
+    res.sendFile(__dirname + '/home.html');
+
+}​​);
+
+
+
+// app.get("/test", function (request, response) {
+//   var user_name = request.query.user_name;
+//   response.end("Hello " + user_name + "!");
+// });
+
+
+//socket test
+io.on('connection', (socket) => {
+  console.log('a user connected');
+  socket.on('disconnect', () => {
+    console.log('user disconnected');
+  });
+  setInterval(()=>{
+    socket.emit('number', parseInt(Math.random()*10));
+  }, 1000);
+
+});
+
+
+http.listen(port,()=>{
+  console.log("Listening on port ", port);
+});
+
+//this is only needed for Cloud foundry 
+require("cf-deployment-tracker-client").track();
