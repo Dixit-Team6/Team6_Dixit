@@ -17,8 +17,3 @@ window.onclick = function(event) {
         modal2.style.display = "none";
     }
 }
-
-
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
-  }

@@ -3,60 +3,12 @@ body {
 	flex-direction: column;
 	min-height: 100%;
 	font-family: 'Raleway', arial, sans-serif;
-  background-image: url(welcome1.jpeg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  
+	text-align: center;
+  	background-color: #00550;
+  	background-image: url(welcome.jpeg);
+	
 }
 
-.start {
-position: absolute;
-margin-left: 40%;
-margin-top: 30%;
-background: #C4C4C4;
-opacity: 0.85;
-border-radius: 30px;
-width: 300px;
-height: 70px;
-font-size: 40px !important;
-}
-
-.home{
-  padding-top: 100px;
-  padding-right: 50px;
-}
-
-.next {
-position: absolute;
-width: 300px;
-height: 70px;
-left: 615px;
-top: 460px;
-background: #C4C4C4;
-opacity: 0.8;
-font-size: 35px !important;
-text-align: center;
-vertical-align: middle;
-}
-
-.textbox {
-width: 700px;
-height: 70px;
-font-size: 25px !important;
-text-align: center;
-padding-left: 200px;
-margin-top: 15%;
-align-items: center;
-}
-
-.drop {
-  width: 700px;
-height: 70px;
-font-size: 30px !important;
-align-items: center;
-padding-left: 200px;
-}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -70,8 +22,8 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background: #C4C4C4;
-  opacity: 0.85;
+  background-color: #4CAF50;
+  color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -80,7 +32,7 @@ button {
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .imgcontainer {
@@ -96,7 +48,6 @@ img.avatar {
 }
 
 .container {
-  background-color: #ccc;
   padding: 16px;
 }
 
@@ -112,11 +63,11 @@ span.psw {
   z-index: 1; 
   left: 0;
   top: 0;
-  width: 90%; 
-  height: 90%; 
+  width: 100%; 
+  height: 100%; 
   overflow: auto;
-  /* background-color: rgb(0,0,0);  */
-  background-color: #ffffff
+  background-color: rgb(0,0,0); 
+  background-color: rgba(255,255,255,0.9);
   padding-top: 60px;
 }
 
@@ -131,7 +82,7 @@ span.psw {
   overflow: auto; 
   background-color: rgb(0,0,0); 
   background-color: rgba(255,255,255,0.9); 
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 /* Modal Content/Box */
@@ -190,6 +141,10 @@ span.psw {
 
 
 
+.button {
+
+
+}
 
 
 .button1 {
@@ -254,5 +209,3 @@ span.psw {
   background-color: #fc4503;
   color: white;
 }
-
-
