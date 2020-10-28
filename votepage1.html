@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/votepage1css.css">
+
+
+</head>
+<body style="background-image: url(img/dixitbg.jpg);">
+<script src="js/votepage1.js"></script>
+
+<h2>Dixit Game</h2>
+<p>All the game options and flow will be displayed below.</p>
+<div class="row" >
+    <div class="col-25">
+        <div class="container">
+          <h4>Details <span class="price" style="color:black"></span></h4>
+          <label for="gamename"><i class="fa fa-user"></i>Game name:</label>
+          <input type="text" id="gamename" name="gamename" placeholder="game name">
+          <label for="round"><i class="fa fa-user"></i>Round:</label>
+          <input type="text" id="round" name="round" placeholder="game round">
+          <label for="fname"><i class="fa fa-user"></i>Story Teller hint:</label>
+          <textarea  id="hint" name="hint" placeholder="hint details" style="height:130px; width:230px"></textarea>
+          <hr>
+          <p>-</p>
+        </div>
+      </div>
+  <div class="col-75">
+        <div class="row">
+          <div class="col-100">
+            <h3>Vote Page</h3>
+            <div>
+                <img src="img/card1.PNG" style="padding-right: 30px;">
+                <img src="img/card2.PNG" style="padding-right: 30px;">
+                <img src="img/card3.PNG" style="padding-right: 30px;">
+            </div>
+            <br>
+            <div>
+                <img src="img/card4.PNG" style="padding-right: 30px;">
+                <img src="img/card5selected.PNG" style="padding-right: 30px;">
+                <img src="img/card6.PNG" style="padding-right: 30px;"> 
+                <p style="color: wheat;">Selected item is highlighted in green</p>
+            </div>
+          </div>        
+        </div>
+        <button value="VOTE" class="btn" style="width:90px;color:white; background-color: blue;" onclick="votepage2()">VOTE</button>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

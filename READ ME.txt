@@ -1,0 +1,7 @@
+Follow these steps:
+
+1- open submitcard.html page
+2- click on proceed button
+3- wait for loading to complete
+4- click on vote button
+5- the end
